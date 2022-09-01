@@ -1,1 +1,42 @@
+.caption {
+    position: relative;
+    overflow:hidden;
+}
+
+.mountains {
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    color: white;
+    transform: translateY(85%);
+    transition: transform .35s ease-out;
+}
+
+.caption:hover .overlay {
+    transform: translateY(0);
+}
+
+h1 {
+    text-align: center;
+}
+
+.Title {
+    text-align: left;
+    padding: 10px;
+    font-size: 50px;
+}
+
+p {
+    font-size: 35px;
+}
 
